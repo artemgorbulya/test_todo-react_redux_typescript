@@ -1,0 +1,31 @@
+.tabs_container {
+    background-color: white;
+    box-shadow: 0px 8px 11px -8px rgba(34, 60, 80, 0.09);
+    margin-bottom: 15px;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-grow: 1;
+}
+
+.tab {
+    border: none;
+    color: #1976d2;
+    padding: 8px 20px;
+    cursor: pointer;
+    background-color: white;
+    width: 100%;
+}
+
+.tab_active {
+    border-bottom: 1px solid rgba(25, 118, 210, 0.5);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #1976d2;
+    padding: 8px 20px;
+    cursor: pointer;
+    background-color: white;
+    width: 100%;
+}
+
